@@ -1,0 +1,10 @@
+{
+    "day": {
+        "color_scheme": "Packages/DA UI/DA Dark.tmTheme",
+        "theme": "DA.sublime-theme"
+    },
+    "night": {
+        "color_scheme": "Packages/DA UI/DA Dark.tmTheme",
+        "theme": "DA.sublime-theme"
+    }
+}

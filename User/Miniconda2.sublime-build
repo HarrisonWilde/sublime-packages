@@ -1,0 +1,9 @@
+{
+	"cmd": ["/Users/harrisonwilde/miniconda2/bin/pythonw", "$file"],
+	"file_regex": "^[ ]File \"(...?)\", Line ([0-9]*)",
+	"selector": "source.python",
+	"env":
+	{
+	    "PYTHONPATH":"/Users/harrisonwilde/miniconda2/lib/python2.7/site-packages"
+	}
+}

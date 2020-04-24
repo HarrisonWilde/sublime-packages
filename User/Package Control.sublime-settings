@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketHighlighter",
+		"DA UI",
+		"Discord Rich Presence",
+		"Google Search",
+		"InputArgs",
+		"Julia",
+		"LaTeX Equation Preview",
+		"LaTeXTools",
+		"Non Text Files",
+		"Package Control",
+		"PackageResourceViewer",
+		"R-IDE",
+		"SendCode",
+		"SideBarEnhancements",
+		"Stan",
+		"SunCycle",
+		"Terminal",
+		"Terminus",
+		"Whitespace",
+		"WordCount"
+	]
+}

@@ -1,0 +1,84 @@
+{
+    "auto_show_diagnostics_panel": "always",
+    "clients":
+    {
+        "julials": {
+          "command": ["bash", "~/.julia/packages/LanguageServer/ZDdcC/contrib/languageserver.sh"], // on Linux/macOS
+          // "command": ["julia", "--startup-file=no", "--history-file=no", "-e", "using LanguageServer; using LanguageServer.SymbolServer; server=LanguageServer.LanguageServerInstance(stdin,stdout,false); run(server)"], // on Windows
+          "languageId": "julia",
+          "scopes": ["source.julia"],
+          "settings": {
+            // Default values from VS Code:
+            "julia": {
+              "format": {
+                "calls": true,        // Format function calls
+                "comments": true,     // Format comments
+                "curly": true,        // Format braces
+                "docs": true,         // Format inline documentation
+                "indent": 4,          // Indent size for formatting
+                "indents": true,      // Format file indents
+                "iterOps": true,      // Format loop iterators
+                "kw": true,           // Remove spaces around = in function keywords
+                "lineends": false,    // [undocumented]
+                "ops": true,          // Format whitespace around operators
+                "tuples": true,       // Format tuples
+              },
+              "lint": {
+                "call": true,         // Check calls against existing methods (experimental)
+                "constif": true,      // Check for constant conditionals of if statements
+                "datadecl": false,    // [undocumented]
+                "iter": true,         // Check iterator syntax of loops
+                "lazy": true,         // Check for deterministic lazy boolean operators
+                "modname": true,      // Check for invalid submodule names
+                "nothingcomp": false, // [undocumented]
+                "pirates": true,      // Check for type piracy
+                "run": true,          // run the linter on active files
+                "typeparam": true,    // Check for unused DataType parameters
+              }
+            }
+          },
+          "syntaxes": ["Packages/Julia/Julia.sublime-syntax"]
+        },
+        "pyls":
+        {
+            "command":
+            [
+                "/usr/local/Caskroom/miniconda/base/bin/pyls"
+            ],
+            "enabled": false,
+            "languageId": "python",
+            "scopes":
+            [
+                "source.python"
+            ]
+        },
+        "rlang":
+        {
+            "command":
+            [
+                "R",
+                "--slave",
+                "-e",
+                "languageserver::run()"
+            ],
+            "enabled": false,
+            "languageId": "r",
+            "scopes":
+            [
+                "source.r"
+            ],
+            "syntaxes":
+            [
+                "Packages/R/R.sublime-syntax"
+            ]
+        }
+    },
+    "diagnostics_gutter_marker": "dot",
+    "initialize_timeout": 3,
+    "log_debug": true,
+    "show_code_actions_bulb": true,
+    "show_diagnostics_count_in_view_status": true,
+    "show_diagnostics_in_view_status": false,
+    "show_diagnostics_severity_level": 2,
+    "show_symbol_action_links": true
+}

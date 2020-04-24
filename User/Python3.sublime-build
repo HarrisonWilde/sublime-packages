@@ -1,0 +1,9 @@
+{
+	"cmd": ["/usr/local/bin/python3", "-u", "$file"],
+	"file_regex": "^[ ]File \"(...?)\", Line ([0-9]*)",
+	"selector": "source.python",
+	"env":
+	{
+	    "PYTHONPATH":"/usr/local/lib/python3:/usr/local/lib/python3.7/site-packages"
+	}
+}

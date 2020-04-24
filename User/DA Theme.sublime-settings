@@ -1,0 +1,14 @@
+{
+	"accent_color": "#d94c4c",
+	"skin":
+	{
+		"id": "origin",
+		"settings":
+		{
+			"show_overlay_input_search_icon": false,
+			"tab_height": 35,
+			"show_tab_dropdown_button": false,
+			"tab_line_flavor": "overlined"
+		}
+	}
+}
